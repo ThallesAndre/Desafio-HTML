@@ -21,41 +21,48 @@
     <main>
         <section id="News">
             <h1>Últimas notícias</h1>
-            <div>
-                <h2>Título principal da notícia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
-                <p>23/02/2022</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+            <div class="container-News">
+                <div class="test">
+                     <h2 class="title">Título principal da notícia</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
+                     <hr>
+                     <p class="title">23/02/2022</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+                </div>           
             </div>
             <br>
-            <div>
-                <h2>Título principal da notícia</h2>
+            <div class="container-News">
+                <div class="test">
+                <h2 class="title">Título principal da notícia</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
-                <p>23/02/2022</p>
+                <hr>
+                <p class="title">23/02/2022</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+                </div>  
             </div>
-            <input  type="submit" value="Carregar mais">
+            <input  type="submit" value="Carregar mais" id="Load-More">
            
         </section>
-    
+        
         <section id="Games">
-             <h1>Jogos</h1>
+            <h1 class="Title-Game">Jogos</h1>
+            <div class="container-Game" >
+             <img src="img/image 25.png" alt="Imagem do Game">
              
-             <div> 
-             <img src="img/image 25.png" alt="Imagem do Game">
+                <p>Horizon Forbidden West</p>
+                <p>De Sony Interactive Entertainment</p>
+                <p class="nota">9.7</p>
+             </div>
+               
+    
+             <div class="container-Game">
+             <img class="Photo-Game" src="img/image 25.png" alt="Imagem do Game">
                 <p>Horizon Forbidden West</p>
                 <p>De Sony Interactive Entertainment</p>
                 <p class="nota">9.7</p>
              </div>
     
-             <div>
-             <img src="img/image 25.png" alt="Imagem do Game">
-                <p>Horizon Forbidden West</p>
-                <p>De Sony Interactive Entertainment</p>
-                <p class="nota">9.7</p>
-             </div>
-    
-             <div>
+             <div class="container-Game">
              <img src="img/image 25.png" alt="Imagem do Game">
                 <p>Horizon Forbidden West</p>
                 <p>De Sony Interactive Entertainment</p>
@@ -66,18 +73,20 @@
         <section id="Sign-up">
              <h1>Faça sua inscrição</h1>
              <form action="Obrigado.html">
-                <div>
+
+                <div class="container-Sign-up">
+                    <div>
                     <label for="ctrl-name"></label>
-                    <input type="ctrl-name" placeholder="Nome Completo">
+                    <input type="ctrl-name" placeholder="Nome Completo" id="name">
                 </div>
                 <div>
                     <label for="ctrl-email"></label>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" id="email">
                 </div>
-                 <p>Qual sua plataforma preferida?</p>
+                 <p class="p-sign-up">Qual sua plataforma preferida?</p>
                  <div>
                     <input type="radio" name="level" id="ctrl-PC">
-                    <label for="ctrl-PC">PC</label>
+                    <label for="ctrl-PC">PC</label >
                 </div>
                  <div>
                     <input type="radio" name="level" id="ctrl-Xbox">
@@ -87,8 +96,10 @@
                     <input type="radio" name="level" id="ctrl-Plastation">
                     <label for="ctrl-Plastation">Plastation</label>
                  </div>
-                 <input type="submit" value="Enviar">
-                 <input type="reset" >
+                
+                 <input type="submit" value="Enviar" id="submit">
+                 <input type="reset" id="reset">
+                </div>
              </form>
              
         </section>

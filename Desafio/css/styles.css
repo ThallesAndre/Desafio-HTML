@@ -1,64 +1,154 @@
+hr{
+    border-color: rgb(32, 188, 188);;
+}
+.title{
+    color: rgb(32, 188, 188);
+}
 header,ul,li,a{
-    background-color:aqua;
+    background-color:rgb(33, 192, 192);
     color: white;
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    text-align: center;
     margin-right: 25px;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 h1{
     text-align: center;
-    size: 36px;
+    size: 46px;
 }
-#News>div{
-    width: 990px;
-    height: 247px;
-    margin-left: 150px;
-    background-color: rgb(221, 225, 228);
-    
-    margin-top: 20px;
-    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
-    text-align: center;
-    border-radius: 4px;
 
-}
+    .container-News{
+       
+        background-color: rgb(221, 225, 228);
+        margin-top: 20px;
+        box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+        border-radius: 4px; 
+        width: 100%;
+        max-width: 1080px;
+        max-height:  900px;
+        margin: 0 auto;
+        text-align:left;
+    }
+    .test{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 900px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        }
+
+
 
 #Games{
-    margin-left: 150px;
-    margin-top: 20px;
     box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    width: 990px;
-    height: 600px;
-   
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    max-height: 1200px;
+    padding: 20px;
+
 }
 
-#Games>div{
-    display: inline-block;
+.Photo-Game{
+    width: 300px;
+    height: 168px;
+}
+.container-Game{
+   
     box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
     border-radius: 8px;
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-bottom: 100px;
-    text-align: center;  
-    width: 300px;
-    height: 400px;
+        width: 100%;
+        max-width: 300px;
+        max-height:  350px;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;     
 }
+.Title-Game{
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    
+}
+
 .nota{
     color: blue;
     font-size: 50px;
+    
 }
 
 #Sign-up{
-    box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
-    border-radius: 8px;
-    text-align: center;
-    width: 600px;
-    height: 400px;
-    margin-left: 400px;
+    background-color: rgb(255, 255, 255);
+        box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+        border-radius: 4px; 
+        max-width: 1080px;
+        max-height:  900px;
+        margin: 0 auto;
+        
+        
+       
+    
+ 
+}
+.container-Sign-up
+{
+    background-color: rgb(232, 226, 226);
+    max-width: 600px;
+    max-height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;  
+    margin: 0 auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#Load-More{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 4px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 25px;
+    margin-left: 500px;
+    
+}
+
+#name, #email{
+    width: 400px;
+    height: 30px;
+    margin-left: 80px;
+    margin-bottom: 8px;
+}
+#ctrl-PC,#ctrl-Xbox,#ctrl-Plastation{
+    margin-left: 80px;
+
+}
+.p-sign-up{
+    margin-left: 80px;
+}
+#submit{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 4px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+#submit,#reset{
+    width: 100px;
+    height: 50px;
+    border-radius: 4px; 
 }
 
 footer{
