@@ -1,0 +1,79 @@
+header,ul,li,a{
+    background-color:aqua;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    size: 36px;
+}
+#News>div{
+    width: 990px;
+    height: 247px;
+    margin-left: 150px;
+    background-color: rgb(221, 225, 228);
+    
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+#Games{
+    margin-left: 150px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 990px;
+    height: 600px;
+   
+}
+
+#Games>div{
+    display: inline-block;
+    box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    text-align: center;  
+    width: 300px;
+    height: 400px;
+}
+.nota{
+    color: blue;
+    font-size: 50px;
+}
+
+#Sign-up{
+    box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
+    border-radius: 8px;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 400px;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: black;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+footer>div{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
