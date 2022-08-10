@@ -1,139 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
 hr{
     border-color: rgb(32, 188, 188);;
 }
-.title{
-    color: rgb(32, 188, 188);
-}
-header,ul,li,a{
-    background-color:rgb(33, 192, 192);
-    color: white;
+
+.container-header{
     display: flex;
-    margin-right: 25px;
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+   background-color: #38AF90;
+   padding: 10px 14px 10px 14px;
     
 }
-h1{
-    text-align: center;
-    size: 46px;
+.nav-header{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    
 }
+.title-header{
+    font-size: 1.12rem;
 
+}
+.ul-link-header{
+    display: flex;
+    margin-left: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 0.87rem;
+}
+.header-link{
+    display:none;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.news-title{
+    text-align: center;
+    font-size: 1,5rem;
+    color: #797979;
+    padding-bottom: 10px;
+}
+#News{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 30px 10px 10px 10px;
+}
     .container-News{
        
         background-color: rgb(221, 225, 228);
-        margin-top: 20px;
         box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
         border-radius: 4px; 
-        width: 100%;
-        max-width: 1080px;
-        max-height:  900px;
-        margin: 0 auto;
+        max-width:276px;
         text-align:left;
+        padding: 10px;
+        font-size: 1rem;
     }
-    .test{
-        width: 100%;
+    .news-title{
+        font-size: 1.5rem;
+    }
+    .title-h2{
+        font-size: 1rem;
+        color: #38AF90;
+    }
+    .title-p{
+        font-size: 0.62rem;
+        color: #38AF90;
+    }
+
+
+    #Games{
+        box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
         margin: 0 auto;
-        max-width: 900px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        
-        }
-
-
-
-#Games{
-    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1200px;
-    max-height: 1200px;
-    padding: 20px;
-
-}
-
-.Photo-Game{
-    width: 300px;
-    height: 168px;
-}
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        max-width: 300px;
+        background-color: #F0F0F0;
+        padding: 10px 5px 5px 5px;
+    
+    }
 .container-Game{
    
-    box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
-    border-radius: 8px;
-        width: 100%;
+        box-shadow: 0px 4px 20px rgba(69, 68, 68, 0.25);
+        border-radius: 8px;
         max-width: 300px;
-        max-height:  350px;
         align-items: center;
         justify-content: space-around;
-        text-align: center;     
+        text-align: center; 
+        display: block; 
+        margin-bottom: 27px;
+       
 }
-.Title-Game{
-    display: block;
-    width: 100%;
-    font-size: 40px;
+.games-img{
+    width: 287px;
+    height: 168.54px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 0;
+} 
+.games-title{
+    
+    width: 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #38AF90;
     
 }
 
 .nota{
-    color: blue;
-    font-size: 50px;
+    color: #38AF90;
+    font-size: 2.25rem;
     
 }
 
 #Sign-up{
-    background-color: rgb(255, 255, 255);
+    background-color: #F0F0F0;
         box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
         border-radius: 4px; 
-        max-width: 1080px;
-        max-height:  900px;
+        max-width: 300px;
         margin: 0 auto;
-        
-        
-       
-    
- 
+        padding: 8px 52px 12px 20px;
+        text-align: left;
+        margin-top: 60px;
 }
-.container-Sign-up
-{
-    background-color: rgb(232, 226, 226);
-    max-width: 600px;
-    max-height: 300px;
-    padding: 20px;
-    margin-bottom: 20px;  
-    margin: 0 auto; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+.sign-up-title h1{
+    width: 231px;
+    text-align: center;
+    color: #797979;
+    height: 36px;
+    margin: 5px 0px 20px 10px;
+   font-size: 1.5rem;
+  
 }
 
 #Load-More{
-    width: 100px;
+    max-width: 244px;
     height: 50px;
     background-color: red;
     border-radius: 4px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    margin-top: 25px;
-    margin-left: 500px;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 10px;
+    
     
 }
 
 #name, #email{
-    width: 400px;
-    height: 30px;
-    margin-left: 80px;
+    display: flex;
+    width: 260px;
+    height: 50px;
     margin-bottom: 8px;
+    justify-content: center;
+    margin-right: 10px;
+ 
 }
 #ctrl-PC,#ctrl-Xbox,#ctrl-Plastation{
-    margin-left: 80px;
+ font-size: 1rem;
 
 }
-.p-sign-up{
-    margin-left: 80px;
+.sign-up-graph{
+    margin-bottom: 10px;
+    text-align: left;
 }
 #submit{
     width: 100px;
@@ -142,10 +185,16 @@ h1{
     border-radius: 4px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    margin-left: 150px;
     margin-top: 25px;
+    margin-bottom: 8px;
+}
+.container-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #submit,#reset{
+    
     width: 100px;
     height: 50px;
     border-radius: 4px; 
@@ -154,16 +203,136 @@ h1{
 footer{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
     color: aliceblue;
     background-color: black;
-    font-size: 15px;
-    margin-right: 10px;
-    margin-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding:  10px;
+    font-size: 0.87rem;
+
 }
-footer>div{
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+.footer-Name{
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+@media(min-width: 1200px){
+    .nav-header{
+        max-width: 960px;
+    }
+   
+    .header-link{
+        display: flex;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+        list-style-type: none;
+    }
+    .title-header{
+        font-size: 1.5rem;
+    }
+    .header-link{
+        font-size: 0.85rem;
+    }
+    #News{
+        max-width: 990px;
+    }
+    .news-title{
+        font-size: 2.25rem;
+        margin-bottom: 25px;
+    }
+    .title-h2{
+        font-size: 1.5rem;
+    }
+    .container-News{
+        max-width: 909px;
+    }
+    #Games  {
+        max-width: 100%;
+        
+    }
+    .container-game-div{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .games-title{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+    .container-Game{
+        margin-left: 10px;  
+    }
+    #Sign-up{
+        max-width: 990px;
+        text-align: center;
+        margin-bottom: 61px;
+    }
+    .sign-up-title h1{
+        width: 909px;
+        text-align: center;
+       font-size: 1.5rem;
+      
+    }
+    #Load-More{
+       width: 488px;
+        height: 50px;
+        background-color: red;
+        border-radius: 4px; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #fff;
+        justify-content: center;
+        margin-left: 330px;
+        margin-top: 10px;
+        
+        
+    }
+    .label-name,.label-email {
+        width: 642px;
+        margin: 52px 75px 20px 150px;
+        
+    }
+   
+    .sign-up-graph{
+        margin: 0px 75px 20px 150px;
+    }
+
+    #name, #email{
+        display: flex;
+        width: 642px;
+        height: 50px;
+        margin-bottom: 8px;
+        justify-content: center;
+       align-items: center;
+     
+    }
+    .container-button{
+       width:  100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    #submit, #reset{
+        margin: 0 20px;
+
+    }
+    .container-radio{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 150px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 14px;
+      padding: 84px;
+    } 
 }
